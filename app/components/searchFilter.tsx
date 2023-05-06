@@ -29,7 +29,6 @@ export default function SearchFilter(){
             const filterCountries:Country[]=data.filter((e)=>{
                 return options===e.region
             });
-            console.log(filterCountries);
             setCountries(filterCountries);
         }
         setIsOpen(false);
@@ -116,7 +115,7 @@ export default function SearchFilter(){
     </div>
         </div>
         </div>
-        <CountryList countries={countries} />
+        <CountryList countries={countries} isTheme={isTheme}/>
         </>
     );
 }
