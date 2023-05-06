@@ -1,0 +1,3 @@
+[submodule "my-app"]
+    path=my-app
+    url="https://github.com/Md-Raihan-Alam/rest-countries-api-with-color-theme-switcher-master.git"
