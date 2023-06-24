@@ -1,3 +1,4 @@
+"use client"
 import Navbar from './Navbar'
 import SearchFilter from './components/searchFilter'
 export default function Home() {

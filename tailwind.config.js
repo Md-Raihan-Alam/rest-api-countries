@@ -27,6 +27,7 @@ module.exports = {
     },
     maxWidth:{
       'normal':'500px',
+      'fix':'300px',
     }
   },
   plugins: [],
